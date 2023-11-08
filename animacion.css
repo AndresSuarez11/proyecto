@@ -1,0 +1,27 @@
+.animated-image {
+    width: 80px; 
+    position: relative;
+    animation: moveImage 2s infinite alternate; 
+}
+
+@keyframes moveImage {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 1400px;
+    }
+}
+main {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 700px; 
+}
+table {
+    width: 90%;
+}
+
+table th,
+table td {
+    padding: 10px;
+}
