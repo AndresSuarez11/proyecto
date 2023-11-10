@@ -11,7 +11,7 @@
   <header>
     <div id="menu">
         <ul>
-            <li><img src="../imagenes/logo/logo.png" alt="Logo" width="80px" height="80px"></a></li>
+          <li><a href="aj.html"><img src="../imagenes/logo/logo.png" alt="Logo" width="80px" height="80px"></a></li>
             <li><a href="registrarse.html">Iniciar Sesión</a></li>
             <li><a href="canchas.html">Canchas</a></li>
             <li><a href="reservar.html">Reservas</a></li>
@@ -26,12 +26,12 @@
             <input type="text" placeholder="Nombre" required/>
             <input type="tel" placeholder="Teléfono" required/>
             <input type="email" placeholder="Correo electrónico" required/>
-            <select name="tipo-de-cancha" required>
+            <input type="number" placeholder="Duración de reserva (horas)" min="1" max="9" required/>
+            <select id="select" name="tipo-de-cancha" required>
               <option value="futbol-5">Cancha de Fútbol 5</option>
               <option value="futbo-8">Cancha de Fútbol 8</option>
               <option value="futbol-11">Cancha de Fútbol 11</option>
             </select>
-            <input type="number" placeholder="Duración de reserva (horas)" min="1" max="9" required/>
             <button>Reservar<a href="horario.html"></a></button>
           </form>
         </div>
