@@ -4,92 +4,87 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
-    background-color: #139c4a;
+    background-color: #104b53;
+    
   }
   
 
   #menu {
-    background-color: #139c4a;
+    background-color: #104b53;
+    
   }
   
   #menu ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    
   }
   
   #menu li {
     display: inline;
+    
   }
   
   #menu li a {
     color: rgb(0, 0, 0);
     padding: 20px 30px; 
     text-decoration: none;
+    
   }
   
   #menu li a:hover {
     background-color: rgb(255, 255, 255);
     color: green;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
  
   #footer section {
     text-align: center;
-    background-color: #139c4a;
+    background-color: #104b53;
     width: 100%;
+   
   }
   
   #footer i {
     display: inline-block;
     padding: 20px 30px; 
     color: white; 
+    
   }
   
   #footer2 {
-    background-color: rgb(0, 0, 0);
+    background-color:#d99b5e ;
     font-size: 20px;
     padding: 10px 0; 
     margin: 0;
     color: white;
     text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .redes {
-    color: #000;
-  }
-
+ 
   #tabla {
     text-align: center;
     height: 61vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
   #tabla th, #tabla td {
-    border: 3px solid #000000;
+    border: 3px solid #d99b5e;
     padding: 8px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
- 
-  
-  #tabla tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
-  
-
-  #tabla input[type="text"] {
-    width: 80%;
-    padding: 6px 10px;
-    box-sizing: border-box;
-    border-radius: 5px;
-  }
-
 
 #imagen {
     width: 700px;
     height: 350px;
+    
 }

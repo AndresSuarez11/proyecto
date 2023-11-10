@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #139c4a;
+    background-color: #104b53;
     margin: 0;
     padding: 0;
   }
@@ -38,7 +38,7 @@ body {
 
   tr:nth-child(1) {
     background-color: #333;
-    color: rgb(0, 0, 0);
+
   }
   
   
@@ -48,20 +48,37 @@ body {
   
 
   tr:nth-child(odd) {
-    background-color: #fff;
+    background-color:  #fad9b8;
   }
   
-  /* Agrega este código a tu archivo horario.css */
-button {
+  button {
   background-color: #36c971;
   color: #fff;
   padding: 8px 16px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+
 }
 
 button:hover {
   background-color: #007722;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
 }

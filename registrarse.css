@@ -1,5 +1,5 @@
 body {
-  background: #139c4a;
+  background: #104b53;
 }
 
 .página-de-inicio {
@@ -9,11 +9,12 @@ body {
 }
 
 .formulario {
-  background: #fff;
+  background: #d99b5e ;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
   text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .formulario input, 
@@ -24,10 +25,11 @@ body {
   padding: 15px;
   box-sizing: border-box;
   font-size: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .formulario input {
-  background: #fff;
+  background: #fad9b8 ;
 }
 
 .formulario button {
@@ -45,7 +47,7 @@ body {
 
 .formulario .mensaje {
   margin-top: 15px;
-  color: #b3b3b3;
+  color: #000000;
   font-size: 12px;
 }
 
@@ -58,3 +60,24 @@ body {
   display: none;
 }
 
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 20px;
+}
+.redes {
+  color: #ffffff;
+}
